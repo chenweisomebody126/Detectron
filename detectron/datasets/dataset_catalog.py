@@ -37,6 +37,18 @@ _RAW_DIR = 'raw_dir'
 
 # Available datasets
 _DATASETS = {
+    'bdd100k_train': {
+        _IM_DIR:
+            _DATA_DIR + '/bdd100k/images/100k/train',
+        _ANN_FN:
+            _DATA_DIR + '/bdd100k/labels/100k/annotations/origin_train.json'
+    },
+    'bdd100k_val': {
+        _IM_DIR:
+            _DATA_DIR + '/bdd100k/images/100k/val',
+        _ANN_FN:
+            _DATA_DIR + '/bdd100k/labels/100k/annotations/origin_valxs.json'
+    },
     'cityscapes_fine_instanceonly_seg_train': {
         _IM_DIR:
             _DATA_DIR + '/cityscapes/images',
